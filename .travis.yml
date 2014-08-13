@@ -1,0 +1,8 @@
+language: c
+env:
+ global:
+  - EnableNuGetPackageRestore=true 
+install:
+ - sudo apt-get install -qq mono-devel
+script:
+ - xbuild "./GuildfordBoroughCouncil.Address.csproj" /p:Configuration=Release
