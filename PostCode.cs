@@ -29,7 +29,6 @@ namespace GuildfordBoroughCouncil.Address
                 //[A-Z]{1,2}[0-9R][0-9A-Z]? [0-9][ABD-HJLNP-UW-Z]{2}
                 PostCode = Regex.Replace(PostCode, "[0-9][ABD-HJLNP-UW-Z]{2}", new MatchEvaluator(FormatPostCode));
             }
-
             return PostCode;
         }
     }
