@@ -81,7 +81,7 @@ namespace GuildfordBoroughCouncil.Address.Models
         {
             get
             {
-                return (AuthorityCode == Properties.Settings.Default.AuthorityCode);
+                return AuthorityCode.HasValue ? (AuthorityCode == Properties.Settings.Default.AuthorityCode) : false;
             }
         }
     }
