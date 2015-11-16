@@ -6,13 +6,17 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("GuildfordBoroughCouncil.Address")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyDescription("POCO model and formatter for addresses.")]
 [assembly: AssemblyCompany("Guildford Borough Council")]
 [assembly: AssemblyProduct("GuildfordBoroughCouncil.Address")]
 [assembly: AssemblyCopyright("Copyright © Ben Cheetham 2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
+#if DEBUG
+[assembly: AssemblyConfiguration("Debug")]
+#else
+[assembly: AssemblyConfiguration("Release")]
+#endif
 
 // Setting ComVisible to false makes the types in this assembly not visible 
 // to COM components.  If you need to access a type in this assembly from 

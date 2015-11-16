@@ -1,16 +1,17 @@
 <?xml version="1.0"?>
 <package>
   <metadata>
-    <id>GuildfordBoroughCouncil.Address</id>
-    <version>1.0.0</version>
-    <authors>Ben Cheetham</authors>
-    <owners>Guildford Borough Council</owners>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
     <licenseUrl>https://github.com/GuildfordBC/address/blob/master/LICENSE.md</licenseUrl>
     <projectUrl>https://github.com/GuildfordBC/address</projectUrl>
     <iconUrl>http://cdn.guildford.gov.uk/assets/favicon-32x32.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>POCO model and formatter for addresses.</description>
-    <copyright>Guildford Borough Council</copyright>
+    <description>$description$</description>
+    <copyright>Copyright Guildford Borough Council 2015</copyright>
     <language>en-GB</language>
   </metadata>
 </package>
